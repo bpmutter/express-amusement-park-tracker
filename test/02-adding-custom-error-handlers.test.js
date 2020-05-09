@@ -72,7 +72,6 @@ const runSpecs = () => {
           .get('/error-test')
           .expect('Content-type', /html/)
           .expect(500);
-
         $ = setDomElements(res);
       });
 
